@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="first">
+        <h1>Booksky</h1>
+    </div>
+    <div class="second">
+        <div class="third">
+            <h2>Rich gets richer, Poor gets poorer</h2>
+            <h5>Sivaji Ramachandran</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, excepturi sint! Nihil, sed necessitatibus incidunt ratione voluptatum animi excepturi dolorum aliquam cum odio dicta amet. Impedit debitis accusamus sapiente enim?</p>
+        <button onclick="update(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add the book</h2>
+        <input type="text" placeholder="Name of the book" id="book-name">
+        <input type="text" placeholder="Author name" id="author">
+        <textarea placeholder="Short description" id="description"></textarea>
+        <button class="add-book">Add</button>
+        <button class="cancel-book">Cancel</button>
+    </div>
+    <button class="addbutton" id="add-popupbutton">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
