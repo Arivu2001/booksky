@@ -17,6 +17,18 @@ body{
 {
     padding: 10px;
 }
+h2 {
+    font-size:larger;
+}
+h5 {
+    font-size: medium;
+}
+p {
+    font-size: small;
+}
+#space {
+    margin-top: 8px;
+}
 .third
 {
     vertical-align: top;
