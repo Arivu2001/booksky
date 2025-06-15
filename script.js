@@ -25,9 +25,9 @@ addbook.addEventListener("click", function(event){
     event.preventDefault()
     var div=document.createElement("div")
     div.setAttribute("class", "third")
-    div.innerHTML = `<h2>${bookname.value}</h2>
-            <h5>${author.value}</h5>
-            <p>${description.value}</p>
+    div.innerHTML = `<h2 id="space">${bookname.value}</h2>
+            <h5 id="space">${author.value}</h5>
+            <p id="space">${description.value}</p>
         <button onclick="update(event)">Delete</button>`
         second.append(div)
          popupbox.style.display="none"
